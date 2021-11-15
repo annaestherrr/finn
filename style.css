@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2CB3F3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box-title {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.box-white {
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    left: 450px;
+    margin-top: 20px;
+    ;
+}
+
+.box-pink {
+    background-color: #FFE1C9;
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+
+.box-black-one {
+    background-color: black;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 180px;
+    top: 80px;
+}
+
+.box-black-two {
+    background-color: black;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 290px;
+    top: 80px;
+}
+
+.email {
+    position: absolute;
+    left: 160px;
+    top: 168px;
+    border: solid black 2px;
+    height: 35px;
+}
+
+.password {
+    position: absolute;
+    left: 160px;
+    top: 200px;
+    border: solid black 2px;
+    height: 35px;
+}
+
+.button {
+    position: relative;
+    top: 30px;
+    left: 650px;
+    background-color: #55A603;
+    height: 40px;
+    width: 70px;
+    color: white;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
